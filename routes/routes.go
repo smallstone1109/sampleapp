@@ -1,10 +1,11 @@
 package routes
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/smallstone1109/sampleapp/config"
-	"github.com/smallstone1109/sampleapp/sessions"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
+	"github.com/stone0514/sampleapp/config"
+	"github.com/stone0514/sampleapp/sessions"
 )
 
 func Home(ctx *gin.Context) {

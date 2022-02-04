@@ -1,11 +1,12 @@
 package routes
 
 import (
-	"github.com/smallstone1109/sampleapp/sessions"
 	"net/http"
 
+	"github.com/stone0514/sampleapp/sessions"
+
 	"github.com/gin-gonic/gin"
-	"github.com/smallstone1109/sampleapp/config"
+	"github.com/stone0514/sampleapp/config"
 )
 
 func UserSignUp(ctx *gin.Context) {

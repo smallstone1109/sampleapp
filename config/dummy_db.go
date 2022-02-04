@@ -3,7 +3,7 @@ package config
 import (
 	"errors"
 
-	"github.com/smallstone1109/sampleapp/crypto"
+	"github.com/stone0514/sampleapp/crypto"
 )
 
 func NewDummyUser(username, email string) *DummyUserModel {
