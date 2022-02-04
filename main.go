@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"sampleapp/routes"
-	"sampleapp/sessions"
+	"github.com/smallstone1109/sampleapp/routes"
+	"github.com/smallstone1109/sampleapp/sessions"
 )
 
 func main() {

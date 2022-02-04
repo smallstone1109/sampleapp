@@ -2,8 +2,8 @@ package sessions
 
 import (
 	"errors"
+	"github.com/smallstone1109/sampleapp/crypto"
 	"net/http"
-	"sampleapp/crypto"
 )
 
 type DummyStore struct {

@@ -1,9 +1,9 @@
 package config
 
 import (
-	"sampleapp/crypto"
-
 	"errors"
+
+	"github.com/smallstone1109/sampleapp/crypto"
 )
 
 func NewDummyUser(username, email string) *DummyUserModel {

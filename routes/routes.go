@@ -2,9 +2,9 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/smallstone1109/sampleapp/config"
+	"github.com/smallstone1109/sampleapp/sessions"
 	"net/http"
-	"sampleapp/config"
-	"sampleapp/sessions"
 )
 
 func Home(ctx *gin.Context) {
